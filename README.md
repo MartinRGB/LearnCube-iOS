@@ -18,7 +18,7 @@ In this demo,I try to use CABasicAnimation/POP Animation/Animatewithduration to 
 
 ![xcode](https://github.com/MartinRGB/LearnCube-iOS/blob/master/Demo.gif?raw=true)
 
-This is the effect in Xcode
+_This is the effect in Xcode_
 
 Sorry for my poor code skill.I'm keep learning,welcome for suggest.
 
