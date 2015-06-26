@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Download-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG1" translatesAutoresizingMaskIntoConstraints="NO" id="7jX-L2-8OP">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NavDownloads" translatesAutoresizingMaskIntoConstraints="NO" id="CZ8-XH-DEp">
+                                <rect key="frame" x="-11" y="-4" width="342" height="70"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C1" translatesAutoresizingMaskIntoConstraints="NO" id="RP4-Bz-HEy">
+                                <rect key="frame" x="0.0" y="164" width="320" height="100"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C2" translatesAutoresizingMaskIntoConstraints="NO" id="Ilb-qo-nNz">
+                                <rect key="frame" x="0.0" y="264" width="320" height="100"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C3" translatesAutoresizingMaskIntoConstraints="NO" id="37W-7j-6jT">
+                                <rect key="frame" x="0.0" y="364" width="320" height="100"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C4" translatesAutoresizingMaskIntoConstraints="NO" id="9jn-rH-WR2">
+                                <rect key="frame" x="0.0" y="464" width="320" height="100"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C5" translatesAutoresizingMaskIntoConstraints="NO" id="ANK-0a-jC6">
+                                <rect key="frame" x="0.0" y="564" width="320" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Download" id="acW-dT-cKf">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="C1" destination="RP4-Bz-HEy" id="Yd2-mz-kgc"/>
+                        <outlet property="C2" destination="Ilb-qo-nNz" id="taL-xJ-yLG"/>
+                        <outlet property="C3" destination="37W-7j-6jT" id="IOV-er-YAh"/>
+                        <outlet property="C4" destination="9jn-rH-WR2" id="EK3-Ix-E2I"/>
+                        <outlet property="C5" destination="ANK-0a-jC6" id="kYp-iF-sfH"/>
+                        <outlet property="tabdl" destination="acW-dT-cKf" id="Uc0-bL-6qS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="408" y="-436"/>
+        </scene>
+        <!--Third-->
+        <scene sceneID="IWJ-P6-pTc">
+            <objects>
+                <viewController id="gOT-HY-3SU" userLabel="Third" customClass="ThirdViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I5n-wG-TGe"/>
+                        <viewControllerLayoutGuide type="bottom" id="5PQ-2q-USy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xxq-cn-QWf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG3" translatesAutoresizingMaskIntoConstraints="NO" id="trL-Ia-BQJ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NavStore" translatesAutoresizingMaskIntoConstraints="NO" id="HHL-WH-Q1G">
+                                <rect key="frame" x="-11" y="-4" width="342" height="70"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="2" title="Store" id="hs0-BM-M99">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="tabstore" destination="hs0-BM-M99" id="DDc-bN-i8y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DJg-qO-DB2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="408" y="246"/>
+        </scene>
+        <!--Fourth-->
+        <scene sceneID="B1q-uv-KZx">
+            <objects>
+                <viewController id="Lkl-Cw-WpR" userLabel="Fourth" customClass="FourthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uWL-9c-YF1"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dub-Ve-Fp2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pfd-ii-VdK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG4" translatesAutoresizingMaskIntoConstraints="NO" id="X9E-vS-Ecf">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NavStatus" translatesAutoresizingMaskIntoConstraints="NO" id="OYB-HE-oU5">
+                                <rect key="frame" x="-11" y="-4" width="342" height="70"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SCard 1" translatesAutoresizingMaskIntoConstraints="NO" id="w8z-q9-OEw">
+                                <rect key="frame" x="17" y="278" width="287" height="220"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SCard2" translatesAutoresizingMaskIntoConstraints="NO" id="AUh-9G-r0C">
+                                <rect key="frame" x="17" y="514" width="287" height="220"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="3" title="Status" id="cpe-2e-OPI">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="card1" destination="w8z-q9-OEw" id="1JX-E8-Guh"/>
+                        <outlet property="card2" destination="AUh-9G-r0C" id="9jC-Be-fuH"/>
+                        <outlet property="tabstatus" destination="cpe-2e-OPI" id="OEG-03-mCn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j5E-Wj-OuH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="408" y="965"/>
+        </scene>
+        <!--Fifth-->
+        <scene sceneID="eNY-ub-yQN">
+            <objects>
+                <viewController id="TpN-bQ-oot" userLabel="Fifth" customClass="FifthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F0L-fa-wPo"/>
+                        <viewControllerLayoutGuide type="bottom" id="Iqk-Ys-BCQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="X5t-rR-Rcc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG5" translatesAutoresizingMaskIntoConstraints="NO" id="Jkc-5K-deq">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NavSetting" translatesAutoresizingMaskIntoConstraints="NO" id="THr-fc-fof">
+                                <rect key="frame" x="-11" y="-4" width="342" height="70"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="S1" translatesAutoresizingMaskIntoConstraints="NO" id="IQu-eB-It8">
+                                <rect key="frame" x="0.0" y="355" width="320" height="74"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="S2" translatesAutoresizingMaskIntoConstraints="NO" id="z15-Oq-biY">
+                                <rect key="frame" x="0.0" y="429" width="320" height="74"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="S3" translatesAutoresizingMaskIntoConstraints="NO" id="Vgq-wk-aSL">
+                                <rect key="frame" x="0.0" y="503" width="320" height="74"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="S4" translatesAutoresizingMaskIntoConstraints="NO" id="QTX-w9-5KB">
+                                <rect key="frame" x="0.0" y="577" width="320" height="74"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Avatar" translatesAutoresizingMaskIntoConstraints="NO" id="kzl-qG-Ci6">
+                                <rect key="frame" x="112" y="79" width="96" height="96"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MartinRGB" translatesAutoresizingMaskIntoConstraints="NO" id="NLC-bo-f9e">
+                                <rect key="frame" x="115" y="167" width="90" height="15"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MartinRGB2" translatesAutoresizingMaskIntoConstraints="NO" id="xdC-TJ-8Xc">
+                                <rect key="frame" x="48" y="197" width="221" height="15"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="4" title="Setting" id="gS5-N1-C70">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
+                    </tabBarItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="S1" destination="IQu-eB-It8" id="NFv-dd-oCD"/>
+                        <outlet property="S2" destination="z15-Oq-biY" id="yAf-cA-lR9"/>
+                        <outlet property="S3" destination="Vgq-wk-aSL" id="iZk-w3-woO"/>
+                        <outlet property="S4" destination="QTX-w9-5KB" id="FI3-RU-Rpz"/>
+                        <outlet property="avatar" destination="kzl-qG-Ci6" id="Oov-WR-kB1"/>
+                        <outlet property="m1" destination="NLC-bo-f9e" id="sIj-ta-hBZ"/>
+                        <outlet property="m2" destination="xdC-TJ-8Xc" id="CU7-Cx-MOJ"/>
+                        <outlet property="tabsetting" destination="gS5-N1-C70" id="iaY-ib-Qfe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fBs-z1-USq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="776" y="965"/>
+        </scene>
+        <!--Star-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG2" translatesAutoresizingMaskIntoConstraints="NO" id="jwU-Nz-fOA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NavStar" translatesAutoresizingMaskIntoConstraints="NO" id="BwY-Qe-BdY">
+                                <rect key="frame" x="-11" y="-4" width="342" height="70"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Card 1" translatesAutoresizingMaskIntoConstraints="NO" id="PTY-cy-bMf">
+                                <rect key="frame" x="17" y="278" width="287" height="220"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Card 2" translatesAutoresizingMaskIntoConstraints="NO" id="enE-m5-15j">
+                                <rect key="frame" x="17" y="514" width="287" height="220"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="1" title="Star" id="cPa-gy-q4n">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="card1" destination="PTY-cy-bMf" id="FRv-Fc-ZuX"/>
+                        <outlet property="card2" destination="enE-m5-15j" id="IEq-nX-dZS"/>
+                        <outlet property="tabstar" destination="cPa-gy-q4n" id="v58-2r-Bg5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="776" y="-436"/>
+        </scene>
+        <!--Tab Bar View Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" customClass="TabBarViewController" sceneMemberID="viewController">
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="gOT-HY-3SU" kind="relationship" relationship="viewControllers" id="Yfw-MO-hob"/>
+                        <segue destination="Lkl-Cw-WpR" kind="relationship" relationship="viewControllers" id="a72-yG-hXh"/>
+                        <segue destination="TpN-bQ-oot" kind="relationship" relationship="viewControllers" id="nji-p5-BxV"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-94" y="246"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Avatar" width="96" height="96"/>
+        <image name="BG1" width="321" height="568"/>
+        <image name="BG2" width="320" height="568"/>
+        <image name="BG3" width="320" height="568"/>
+        <image name="BG4" width="320" height="568"/>
+        <image name="BG5" width="320" height="568"/>
+        <image name="C1" width="320" height="100"/>
+        <image name="C2" width="320" height="100"/>
+        <image name="C3" width="320" height="100"/>
+        <image name="C4" width="320" height="100"/>
+        <image name="C5" width="320" height="100"/>
+        <image name="Card 1" width="291" height="224"/>
+        <image name="Card 2" width="291" height="224"/>
+        <image name="MartinRGB" width="90" height="15"/>
+        <image name="MartinRGB2" width="221" height="15"/>
+        <image name="NavDownloads" width="320" height="65"/>
+        <image name="NavSetting" width="320" height="65"/>
+        <image name="NavStar" width="320" height="65"/>
+        <image name="NavStatus" width="320" height="65"/>
+        <image name="NavStore" width="320" height="65"/>
+        <image name="S1" width="320" height="74"/>
+        <image name="S2" width="320" height="74"/>
+        <image name="S3" width="320" height="74"/>
+        <image name="S4" width="320" height="74"/>
+        <image name="SCard 1" width="291" height="223"/>
+        <image name="SCard2" width="291" height="224"/>
+    </resources>
+    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+</document>
