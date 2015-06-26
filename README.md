@@ -3,7 +3,7 @@ An animation practise demo
 
 ##Asset I used...
 
-I used [Swifticons](http://swifticons.com)in main UI for its subtle color and shape.
+I used [Swifticons](http://swifticons.com) in main UI for its subtle color and shape.
 
 I also used [BigMug](https://dribbble.com/shots/1634821-440-Free-Icons)'s icon in tab bar,the designer is [Catalin Fertu](https://dribbble.com/catalinfertu)
 
