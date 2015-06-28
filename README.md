@@ -1,5 +1,5 @@
 # LearnCube-iOS
-An animation practise demo
+An animation practise demo,See it on [Dribbble](https://dribbble.com/shots/2124167-LearnCube-Code?list=users&offset=0)
 
 ##Asset I used...
 
@@ -9,7 +9,7 @@ I also used [BigMug](https://dribbble.com/shots/1634821-440-Free-Icons)'s icon i
 
 ##Why I Do This?
 
-As a motion designer（[My Dribbble](https://dribbble.com/MartinRGB)）,I begin to learn some code.
+As a motion designer [My Dribbble](https://dribbble.com/MartinRGB),I begin to learn some code.
 
 When I saw the Lush App,I'm very interesting in its tabbar's design.The Square moved in tab bar and changed color,I like the wonderful effect!That's why I make this demo.
 
